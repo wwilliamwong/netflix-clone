@@ -8,7 +8,7 @@ export default function SignUp() {
     <Container>
       <BackgroundImage />
       <div className="content">
-        <Header login={false} />
+        <Header login={true} />
         <div className="body flex column a-center j-center">
           <div className="text flex column">
             <h1>Unlimited movies, TV shows, and more.</h1>
@@ -40,6 +40,6 @@ const Container = styled.div`
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 15vh 85vh;
+    grid-template-rows: 15vh 85vh;
   }
 `;
