@@ -1,4 +1,4 @@
-# Netflix Clone (Work in Progress)
+# [Netflix Clone](https://netflix-clone-83631.web.app/) (Work in Progress)
 
 This project is a Netflix clone currently being built with React, Redux Toolkit, Node.js, MongoDB, and Firebase. The goal is to emulate core features of Netflix and provide a similar user experience while adding unique touches.
 
