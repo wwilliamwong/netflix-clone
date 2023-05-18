@@ -10,13 +10,15 @@ export default function App() {
   const user = null;
 
   useEffect(() => {
-    onAuthStateChanged(auth, (userAuth) => {
+    const unSubscribe = onAuthStateChanged(auth, (userAuth) => {
       if (userAuth) {
         //Logged in
+        console.log(userAuth);
       } else {
         //Logged out
       }
     });
+    return unSubscribe;
   }, []);
 
   return (
