@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./App.css";
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
+import ProfileScreen from "./screens/ProfileScreen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "./firebase";
@@ -37,6 +38,7 @@ export default function App() {
           <LoginScreen />
         ) : (
           <Routes>
+            <Route path="/profile" element={<ProfileScreen />} />
             <Route exact path="/" element={<HomeScreen />} />
           </Routes>
         )}
