@@ -25,11 +25,11 @@ export default function App() {
         );
       } else {
         //Logged out
-        dispatch(logout);
+        dispatch(logout());
       }
     });
     return unSubscribe;
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">
