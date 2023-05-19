@@ -29,9 +29,9 @@ To setup the project, follow these steps:
 ## Features
 
 - User authentication (Login/Signup)
+- User profile
 - Movie and TV show listings
 - Navigation menu
-- User profile
 
 <br/>
 
