@@ -10,7 +10,8 @@ This project aims to build a clone of Netflix's user interface, complete with a 
 - **Redux**: A JavaScript library used for managing and centralizing application state.
 
 ## Features
-User authentication (Login/Signup)
-Movie and TV show listings
-Navigation menu
-User profile
+
+- User authentication (Login/Signup)
+- Movie and TV show listings
+- Navigation menu
+- User profile
