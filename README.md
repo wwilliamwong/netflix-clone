@@ -1,11 +1,16 @@
-# [Netflix Clone](https://netflix-clone-83631.web.app/) (Work in Progress)
+# [Netflix Clone](https://netflix-clone-83631.web.app/)
 
-This project is a Netflix clone currently being built with React, Redux Toolkit, Node.js, MongoDB, and Firebase. The goal is to emulate core features of Netflix and provide a similar user experience while adding unique touches.
+This project aims to build a clone of Netflix's user interface, complete with a login screen, user authentication, a home screen, and various other components. It was developed using a variety of technologies, including ReactJS, Firebase, TMDB API, and Redux.
 
-## Technology Stack
+## Technologies Used
 
-- **React:** A JavaScript library for building user interfaces.
-- **Redux Toolkit:** The official, opinionated, batteries-included toolset for efficient Redux development.
-- **Node.js:** A JavaScript runtime built on Chrome's V8 JavaScript engine.
-- **MongoDB:** A source-available cross-platform document-oriented database program.
-- **Firebase:** A platform developed by Google for creating mobile and web applications.
+- **ReactJS**: A JavaScript library for building user interfaces.
+- **Firebase**: A platform developed by Google for creating mobile and web applications.
+- **TMDB API**: An API used to access a large database of movie and TV show data.
+- **Redux**: A JavaScript library used for managing and centralizing application state.
+
+## Features
+User authentication (Login/Signup)
+Movie and TV show listings
+Navigation menu
+User profile
