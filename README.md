@@ -2,6 +2,8 @@
 
 This project aims to build a clone of Netflix's user interface, complete with a login screen, user authentication, a home screen, and various other components. It was developed using a variety of technologies, including ReactJS, Firebase, TMDB API, and Redux.
 
+<br/>
+
 ## Technologies Used
 
 - **ReactJS**: A JavaScript library for building user interfaces.
@@ -9,12 +11,29 @@ This project aims to build a clone of Netflix's user interface, complete with a 
 - **TMDB API**: An API used to access a large database of movie and TV show data.
 - **Redux**: A JavaScript library used for managing and centralizing application state.
 
+<br/>
+
+## Setup
+
+Before starting, make sure you have Node.js and npm installed on your system. If not, visit the official [Node.js website](https://nodejs.org/en) and download the installer based on your OS.
+
+To setup the project, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Inside the cloned repository, install the required npm packages using `npm install`.
+3. Add your own Firebase and TMDB API configurations to the `.env` file.
+4. Use `npm start` to start the local development server.
+
+<br/>
+
 ## Features
 
 - User authentication (Login/Signup)
 - Movie and TV show listings
 - Navigation menu
 - User profile
+
+<br/>
 
 ## Deploying the Build
 
